@@ -34,7 +34,7 @@ class tuyasmartplugPlugin(
         self.tuyapi.init(
             username=username,
             password=password,
-            countrycode=country_code,
+            countryCode=country_code,
             bizType="tuya"
         )
 
